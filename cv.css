@@ -1,0 +1,307 @@
+
+/* Fixed position styles for website counter */
+.website-counter {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: #ff4957;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1500px;
+}
+
+.cv {
+    height: 1080px;
+    width: 850px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.sidebar-container {
+    height: 100%;
+    width: 30%;
+    background-color: #F4F4F4;
+}
+
+.sidebar-container .sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar-container .sidebar-header .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.sidebar-container .sidebar-header .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidebar-container .sidebar-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.sidebar-container .sidebar-content .profile-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 15px;
+}
+
+.sidebar-container .sidebar-content .profile-infos .name {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+    word-spacing: 0.6px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.sidebar-container .sidebar-content .profile-infos .job-title {
+    font-size: 0.75rem;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 1.4px;
+    word-spacing: -0.4px;
+    color: #9A9A9A;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.sidebar-container .sidebar-content .profile-infos .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.sidebar-container .sidebar-content .profile-infos .contact span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 1.4px;
+    word-spacing: -0.4px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.sidebar-container .sidebar-content .profile-infos .contact span i {
+    font-size: 1.1rem;
+}
+
+
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.block-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    font-family: "Source Code Pro", "Times New Roman", Times, serif;
+    letter-spacing: 2.6px;
+    word-spacing: 1px;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.block-text {
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #666;
+    font-family: "Nunito Sans", Times, serif;
+    letter-spacing: 1.8px;
+    word-spacing: 1px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #000000;
+    margin: 0.5rem 0;
+}
+
+
+.main-container {
+    height: 1078px;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.experience-professionnelle,
+.certifications {
+    margin-bottom: 1rem;
+    padding: 15px;
+}
+
+.experience-professionnelle h3,
+.certifications h3 {
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-family: "Public Sans", "Times New Roman", Times, serif;
+    letter-spacing: 2.2px;
+    word-spacing: 2px;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.experience-professionnelle p,
+.certifications ul {
+    margin-left: 1.5rem;
+    font-family: "Raleway", "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    word-spacing: 1.0px;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.experience-professionnelle li > :last-child,
+.certifications li > :last-child {
+    margin-bottom: 0.5rem;
+}
+
+.certifications ul ul {
+    margin-left: 2.5rem;
+}
+
+
+.formations-and-projects,
+.education-history {
+    margin-bottom: 1rem;
+    padding: 15px;
+}
+
+.formations-and-projects h3,
+.education-history h3 {
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-family: "Public Sans", "Times New Roman", Times, serif;
+    letter-spacing: 2.2px;
+    word-spacing: 2px;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.formations-and-projects p,
+.education-history ul {
+    font-family: "Raleway", "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    word-spacing: 1.0px;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+
+}
+
+.formations-and-projects li > :last-child,
+.education-history li > :last-child {
+    margin-bottom: 0.5rem;
+}
+
+.education-history ul li {
+    line-height: 1.5;
+}
+
+.education-history ul li:last-child {
+    margin-bottom: 0;
+}
+
+.formations-and-projects {
+    margin-bottom: 1rem;
+}
+
+.formations-and-projects h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.formations-and-projects p {
+    color: #666;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.formations-and-projects p i {
+    margin-right: 0.25rem;
+    margin-left: -0.25rem;
+}
+
+.formations-and-projects p span {
+    font-weight: bold;
+    margin-right: 0.25rem;
+    margin-left: -0.25rem;
+}
